@@ -12,5 +12,6 @@ def find_min_in_nested_arrays(src)
   end
   
 end
-
-puts 10 > nil
+test
+puts test
+puts 10 > test
