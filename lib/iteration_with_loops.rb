@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   min_temperature = []
   src.length.times do |row_index|
     
-    row_min_temp = src[index][0]
+    row_min_temp = src[row_index][0]
     src[row_index].length.times do |element_index|
       if src[row_index][element_index] < row_min_temp
         row_min_temp = src[row_index][element_index]
